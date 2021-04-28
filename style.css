@@ -25,4 +25,9 @@ label{
 }
 input{
   border: solid 1px rgb(173, 173, 173);
+  flex-basis: 100%;
+}
+.sub{
+  width: 50%;
+  margin: auto;
 }
