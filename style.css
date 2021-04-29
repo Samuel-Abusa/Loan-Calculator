@@ -1,3 +1,10 @@
+.find{
+  font-size: 120%;
+}
+.disc{
+  font-size: 90%;
+  margin-top: 20px;
+}
 .row{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -9,7 +16,9 @@
   justify-content: center;
 }
 .col-md-4 span{
-  font-size: 300%;
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 180%;
 }
 .col-md-8{
   background: rgb(247, 246, 246);
@@ -30,4 +39,8 @@ input{
 .sub{
   width: 50%;
   margin: auto;
+  color: white;
+  background: #010788;
+  border: none;
+  padding: 10px;
 }
