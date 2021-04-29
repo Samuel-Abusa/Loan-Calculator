@@ -9,7 +9,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <p class="find">
+      Find the best loan repayment terms for you by entering an amount, interest rate, and borrowing period. All borrowing rates used in this tool are indicative.
+    </p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="calc-Result">
+          <h5>Monthly Repayment</h5>
+          <span id="monthlyRepayment"></span>
+          <h5>Total Repayment</h5>
+          <span id="totalRepayment"></span>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="inpt">
+          <form action="">
+            <label for="amount">Loan Amount</label>
+            <input type="text" id="amount" placeholder="e.g. 10000">
+            <br>
+            <label for="rate">Annual Interest Rate (%)</label>
+            <input type="text" id="rate">
+            <br>
+            <label for="term">Term (Years)</label>
+            <input type="text" id="term">
+            <br>
+            <input type="submit" value="Calculate" class="sub">
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="disc">
+      <strong>Disclaimer:</strong> This calculator is made available to you as a self-help tool for your independent use. The repayment results in every case are an approximate guide only
+    </p>
+  </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="script.js"></script>
